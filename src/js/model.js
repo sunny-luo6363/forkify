@@ -114,7 +114,7 @@ const init = function () {
   if (storage) state.bookmarks = JSON.parse(storage);
 };
 init();
-console.log(state.bookmarks);
+// console.log(state.bookmarks);
 
 // for development only
 const clearBookmarks = function () {
